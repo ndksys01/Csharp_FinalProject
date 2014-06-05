@@ -3,12 +3,12 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Windows.Forms;
 // Thêm 3 em này vào là OK, để sài SerialPort
 using System.IO;
 using System.IO.Ports;
+using System.Linq;
+using System.Text;
+using System.Windows.Forms;
 using System.Xml;
 // Bắt đầu code
 namespace HIENCLUBVN_RS232
@@ -210,6 +210,120 @@ namespace HIENCLUBVN_RS232
             frm.ShowDialog();
         }
 
-        
+        private void button1_Click(object sender, EventArgs e)
+        {
+            if (P.IsOpen)
+            P.Write("#1");
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            if (P.IsOpen)
+            P.Write("#2");
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            if (P.IsOpen)
+            P.Write("#3");
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            if (P.IsOpen)
+                P.Write("#4");
+
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            if (P.IsOpen)
+                P.Write("#5");
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            if (P.IsOpen)
+                P.Write("#6");
+        }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+            if (P.IsOpen)
+                P.Write("#7");
+        }
+
+        private void button8_Click(object sender, EventArgs e)
+        {
+            if (P.IsOpen)
+                P.Write("#8");
+        }
+
+        private void button12_Click(object sender, EventArgs e)
+        {
+            if (P.IsOpen)
+                P.Write("#c");
+        }
+
+        private void button13_Click(object sender, EventArgs e)
+        {
+            if (P.IsOpen)
+                P.Write("#d");
+        }
+
+        private void button14_Click(object sender, EventArgs e)
+        {
+            if (P.IsOpen)
+                P.Write("#e");
+        }
+
+        private void button15_Click(object sender, EventArgs e)
+        {
+            if (P.IsOpen)
+                P.Write("#f");
+        }
+
+        private void button9_Click_1(object sender, EventArgs e)
+        {
+            if (P.IsOpen)
+                P.Write("#9");
+        }
+
+        private void button10_Click_1(object sender, EventArgs e)
+        {
+            if (P.IsOpen)
+                P.Write("#a");
+        }
+
+        private void button11_Click_1(object sender, EventArgs e)
+        {
+            if (P.IsOpen)
+                P.Write("#b");
+        }
+
+        private void button12_Click_1(object sender, EventArgs e)
+        {
+            if (P.IsOpen)
+                P.Write("#c");
+        }
+
+        private void button13_Click_1(object sender, EventArgs e)
+        {
+            if (P.IsOpen)
+                P.Write("#d");
+        }
+
+        private void button14_Click_1(object sender, EventArgs e)
+        {
+            if (P.IsOpen)
+                P.Write("#e");
+        }
+
+        private void button15_Click_1(object sender, EventArgs e)
+        {
+            if (P.IsOpen)
+                P.Write("#f");
+        }
+
     }
 }
